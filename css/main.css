@@ -1,0 +1,29 @@
+body{
+  font-fammily: sans serif;
+}
+.biography{
+  width: 60%;
+  display:inline-block;
+  font-size:14px;
+  line-height: 1.6;
+
+}
+.sumary{
+  display:inline-block;
+  vertical-align:top;
+
+}
+.sumary_table{
+  border:1px solid #a2a9b1;
+  background-color:#f8f9fa;
+  padding:1px;
+  font-zise:14px;
+
+}
+.sumary-table thead th{
+  background-color:#B0c4DE;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size:16px;
+
+}
