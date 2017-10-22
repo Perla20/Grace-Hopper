@@ -1,29 +1,50 @@
 body{
-  font-fammily: sans serif;
+  font-family: sans-serif;
+  padding: 10px;
 }
+
 .biography{
-  width: 60%;
-  display:inline-block;
-  font-size:14px;
-  line-height: 1.6;
-
+  width: 78%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.4;
 }
-.sumary{
-  display:inline-block;
-  vertical-align:top;
 
+header h1{
+  margin-bottom: 3px;
+  margin-top: 0;
 }
-.sumary_table{
-  border:1px solid #a2a9b1;
-  background-color:#f8f9fa;
-  padding:1px;
-  font-zise:14px;
 
+header hr{
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.sumary-table thead th{
-  background-color:#B0c4DE;
+
+.summary{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-top: 15px;
+}
+
+.summary-table{
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding:  1px;
+  font-size: 13px;
+}
+
+.summary-table thead th{
+  background-color: #80C4DE;
   padding-top: 3px;
-  padding-bottom: 3px;
-  font-size:16px;
+  padding-bottom:  3px;
+  font-size: 14px;
+}
 
+.summary-table tbody tr:first-child{
+  text-align: center;
+}
+
+.summary-table tbody th{
+  text-align: left;
 }
